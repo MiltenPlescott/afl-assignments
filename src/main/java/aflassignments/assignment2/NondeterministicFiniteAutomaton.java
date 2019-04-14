@@ -109,6 +109,9 @@ class NondeterministicFiniteAutomaton extends FiniteAutomaton {
 						queue.add(allStates.get(col));
 					}
 				}
+				if (closuredStates.containsAll(queue)) {
+					return closuredStates;
+				}
 				closuredStates.addAll(queue);
 			}
 		}

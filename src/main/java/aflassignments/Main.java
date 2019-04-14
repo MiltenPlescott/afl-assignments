@@ -9,6 +9,7 @@ package aflassignments;
 
 import aflassignments.assignment1.Interpreter;
 import aflassignments.assignment2.AutomataConverter;
+import aflassignments.assignment3.AutomataBuilder;
 
 /**
  *
@@ -20,7 +21,9 @@ public class Main {
 		// assignment 1:
 		// Interpreter.init(args);
 		// assignment 2:
-		AutomataConverter.init(args);
+		// AutomataConverter.init(args);
+		// assignment 3:
+		AutomataBuilder.init(args);
 	}
 
 }
